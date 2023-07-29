@@ -14,12 +14,12 @@ ${answers.description}
 
 ## Table of Contents
 -[Description](#Description)
-  -[Installation] (#Installation)
-  -[Usage] (#Usage)
-  -[License] (#License)
-  -[Contributing] (#Contributing)
-  -[Tests] (#Tests)
-  -[Questions] (#Questions)
+  -[Installation](#Installation)
+  -[Usage](#Usage)
+  -[License](#License)
+  -[Contributing](#Contributing)
+  -[Tests](#Tests)
+  -[Questions](#Questions)
 
 ## Installation
 ${answers.installation}
@@ -65,9 +65,9 @@ inquirer
       message: 'Enter usage instructions:',
     },
     {
-      type: 'input',
+      type: 'list',
       name: 'license',
-      message: 'Enter the project license:',
+      message: 'Choose the project license:',
       choices: ['MIT', "None"],
     },
     {

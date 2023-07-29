@@ -1,33 +1,33 @@
     
-# README GENERATOR
+# s
 
 ## Description
-makes a professional readme
+s
 
 ## Table of Contents
 -[Description](#Description)
-  -[Installation] (#Installation)
-  -[Usage] (#Usage)
-  -[License] (#License)
-  -[Contributing] (#Contributing)
-  -[Tests] (#Tests)
-  -[Questions] (#Questions)
+  -[Installation](#Installation)
+  -[Usage](#Usage)
+  -[License](#License)
+  -[Contributing](#Contributing)
+  -[Tests](#Tests)
+  -[Questions](#Questions)
 
 ## Installation
-make sure to use inquirer 8.2.4
+s
 
 ## Usage
-install inquirer then run node index.js
+s
 
 ## License
 MIT
 
 ## Contributing
-uhh..
+f
 
 ## Tests
-none
+f
 
 ## Questions
-If you have any questions, feel free to reach out to me at ghaworth1.
+If you have any questions, feel free to reach out to me at f.
   
