@@ -8,18 +8,26 @@ function generateMarkdown(answers) {
   // gets data from {answers}
   return `    
 # ${answers.title}
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 ${answers.description}
 
 ## Table of Contents
+
 -[Description](#Description)
-  -[Installation](#Installation)
-  -[Usage](#Usage)
-  -[License](#License)
-  -[Contributing](#Contributing)
-  -[Tests](#Tests)
-  -[Questions](#Questions)
+
+-[Installation](#Installation)
+
+-[Usage](#Usage)
+
+-[License](#License)
+
+-[Contributing](#Contributing)
+
+-[Tests](#Tests)
+
+-[Github](#github)
 
 ## Installation
 ${answers.installation}
@@ -36,8 +44,8 @@ ${answers.contributing}
 ## Tests
 ${answers.tests}
 
-## Questions
-If you have any questions, feel free to reach out to me at ${answers.email}.
+## Github
+You can find the github profile at: https://github.com/${answers.email}/.
   `;
 }
 
@@ -83,7 +91,7 @@ inquirer
     {
       type: 'input',
       name: 'email',
-      message: 'Enter your email address:',
+      message: 'Enter your github username:',
     },
   ])
   //then take the answers and generateMarkdown
